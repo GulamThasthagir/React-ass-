@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin:0px;
+  padding: 0px;
+}
+.main_div{
+  border:2px solid black;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.input_box{
+  width:150%;
+  height:30px;
+  border:2px solid black;
+  margin-top: 3%;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  background-color: rgb(232, 240, 247);
+  border-color:  rgb(232, 240, 247);
+  margin-left: -40%;
+}
+.search_div{
+  display: flex;
+}
+.btn{
+ width:100%;
+ height:33.5px;
+ border-top-right-radius: 20%;
+ border-bottom-right-radius: 20%;
+ background-color: rgb(232, 240, 247);
+ border-color:  rgb(232, 240, 247);
+ margin-top: 18.2%;
+ margin-left: -75%;
+}
+.sign_in{
+  margin-top: 1%;
+}
+.cart{
+  margin-top: 1%;
+}
+.collections{
+  border: 1.5px solid black;
+  padding: 10px;
+}
+.collections:hover{
+box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+.outerDiv{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  text-align: center;
+  gap:10px;
+}
+.password{
+  border:4px solid black;
+  width:30%;
+  height: 380px;
+  margin-top: 10%;
+  /* margin-left: 1%; */
+  background-color: aqua;
+  font-weight: bold;
+}
+.submit{
+  width:80%;
+  height: 25px;
+  margin-left: 10%;
+  background-color: rgb(4, 4, 48);
+  color: white;
+}
+#input1,#input2{
+  width:80%;
+  height: 40px;
+  margin-left: 10%;
+}
